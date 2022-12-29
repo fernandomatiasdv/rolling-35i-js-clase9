@@ -1,0 +1,105 @@
+ARRAYS:
+1- Contá con tus palabras:
+a) qué entendes vos por array
+b) Cuáles son las partes de un array
+c) Cómo declaro un array
+d) Qué significa que un array esté vacío
+e) Qué es el índice de un array.
+
+2- Marcá con una [Y] las definiciones correctas y con una [X] las incorrectas. En este caso
+indica porqué es incorrecto (y si se puede solucionar).
+
+a)[ ] let animales = ["perro", "gato", "jirafa","tortuga"] 
+b)[ ] const talles = [undefined]
+c)[ ] let galletitas=["Oreo"; "Surtidas"; "Mana"; "Traviata"]
+d)[ ] const numeros = ['1', '2', '3']
+e)[ ] const dias_febrero = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30]
+f)[ ] let x = ['Arsenal', 0, true, null, "5"]
+g)[ ] let y = ['Dinamarca', true, false, "7",]
+
+3- ¿Qúe valores devuelve?  let animales = ["perro", "gato", "jirafa","tortuga"]
+a) animales[0]
+b) animales[1]
+c) animales[4]
+d) animales
+e) animales["1"]
+f) animales[undefined]
+
+4- Consideremos el siguiente array: let animales = ["perro", "gato", "jirafa","tortuga"]
+a) Si tengo 
+animales[4] = "mono"
+qué salida mostrara: console.log(animales) ? Tratá de pensarlo y no llevarlo directamente al
+código. Luego, si, correlo para ver si la salida coincide con lo que pensaste.
+
+b) Y si ahora hago
+animales = "Rinoceronte"
+qué salida mostrara: console.log(animales) ? Tratá de pensarlo y no llevarlo directamente al
+código. Luego, si, correlo para ver si la salida coincide con lo que pensaste.
+
+5- Crea un array llamado meses y que almacene el nombre de los doce meses del año. 
+Mostrar por consola en forma de lista  los doce nombres del arreglo.
+
+6- Considerá el siguiente array
+const lote = [1,1,0,1,0,0,0,1,1,0,1,0,1,0,1]
+Mostrá por consola la cantidad de unos y luego la de ceros que contiene el lote. 
+
+7- Considerá los siguientes arrays:
+const numeros_1 = [5, 7, 9, 1, 2, 4, 6, 8, 9]
+const numeros_2 = [403, 1, 5, 7, 15, 1, 17,3]
+const numeros_3 = [41, 11, 5, 7, 33, 1, 7, 7]
+
+Y, por cada uno resolvé:
+a) Cantidad de números pares
+b) Mostrá por consola los valores mayores a 5 y que pertenezcan a índices pares.
+c) La consola mostrará un "false" o "true". Si es "false" es porque todos los ítems del array
+son impares. Si es "true" es porque hay valores pares, impares o el vector es nulo.
+d) El número mayor de cada uno de los arrays
+
+8- Considerá el siguiente vector: 
+const numeros_4 = [1, 8, 9, 11, 20, 33, 40, 101]
+Hace un programa que recorra todo el vector y, una vez que finalice, que nos muestre
+"true": si el vector está ordenado de menor a mayor
+"false": si el vector NO está ordenado de menor a mayor
+
+9- Para qué sirven cada uno de los siguientes médotos:
+a) push
+b) pop
+c) unshift
+d) shift
+ 
+10- Dá un ejemplo de cada uno sobre el siguiente vector:
+let numeros_romanos = ['IV','V','VI']
+
+11- Vas a ingresar números entre el 0 y el 42 pero no los vas a cargar en el vector sino que
+primero va a ver si se encuentra entre los valores:
+0-5 "Nieva"
+6-15 "Hace frio"
+16-22 "Está templado"
+23-30 "Veranito"
+31-36 "Sacame de aca!!"
+37-42 "Team invierno"
+y cargará las leyendas que puse a continuación de los valores en cada posición del vector.
+El vector deja de cargar cuando se ingresa un -1 
+
+12-  Crear un script que solicite al usuario mediante un prompt el nombre de ciudades 
+y almacenarlas en un arreglo, cuando el usuario seleccione 0 se debe mostrar el arreglo generado, 
+luego realiza las siguientes acciones:
+a) Mostrar la longitud del arreglo.
+b) Mostrar los ítems de las posiciones primera, tercera y última.
+c) Añade en última posición la ciudad de París.
+d) Escribe por pantalla el elemento que ocupa la segunda posición.
+e) Sustituye el elemento que ocupa la segunda posición por la ciudad de 'Barcelona'.
+Consideración 1: No se pueden ingresar menos de 8 ciudades. Si el usuario intenta ingresar un 
+0 antes de los 8 debe mostrarse una alerta informando CUANTOS faltan aún por cargar (para llegar
+a los 8) y luego de aceptar, que te pida nuevamente la ciudad
+Consideración 2: No se aceptarán tipos numéricos ni vacíos o nulos.
+
+13- Vas a cargar dos vectores con valores numéricos.
+a) Ambos deben tener la misma cantidad de valores. Si alguno tiene mas que otro deberá mostrarse
+la leyenda "Los vectores no tienen la misma longitud" y no se ejecutarán los siguientes pasos
+b) Contar la cantidad de coincidencias y mostrar un console.log con la cantidad encontrada
+c) Cargar en un nuevo vector las cantidades iguales y mostrarlos por consola
+d) Mostrar el vector que tenga la mayor cantidad de números mas grandes.
+e) Guardar en un nuevo vector los números que le pertenezcan al vector que tienen la mayor 
+cantidad de números mas grandes (de todos los existentes solo se deben guardar los que tengan
+un promedio mayor al de los números de dicho vector)
